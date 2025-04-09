@@ -1,0 +1,25 @@
+styled-link {
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #1A237E; 
+    padding: 10px 15px;
+    border: 2px solid #1A237E; 
+    border-radius: 8px; 
+    background: #E3E3FF; 
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+/*Added the Hover effect */
+.styled-link:hover {
+    background: #1A237E; 
+    color: white;
+    border-color: #FFD700; 
+}
+body {
+    background-color: bisque;
+}
+.logo-container{ text-align:right; margin-top: 20 px;}
+.logo-container img{width :200px;height: auto;
+
+}
